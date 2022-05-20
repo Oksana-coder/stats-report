@@ -1,0 +1,27 @@
+{
+  "name": "stats-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oksana-coder/stats-report.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oksana-coder/stats-report/issues"
+  },
+  "homepage": "https://github.com/Oksana-coder/stats-report#readme",
+  "dependencies": {
+    "@types/node": "^17.0.34",
+    "concurrently": "^7.2.0",
+    "nodemon": "^2.0.16"
+  }
+}
